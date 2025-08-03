@@ -86,3 +86,32 @@ body{
         transform: translateX(0);
     }
 }
+
+@media (max-width: 600px) {
+    body {
+        background: url(/assets/abc.avif) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #imgBox {
+        width: 60%;
+    }
+
+    .container input {
+        height: 45px;
+    }
+
+    .container button {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    #imgBox img {
+        padding: 8px;
+    }
+}
